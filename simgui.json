@@ -1,0 +1,136 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": {
+        "Robot": {
+          "arrowColor": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "arrowWeight": 3.0,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "weight": 3.0
+        },
+        "bottom": 514,
+        "cameras": {
+          "arrowColor": [
+            0.0,
+            0.683544397354126,
+            1.0,
+            255.0
+          ],
+          "arrowSize": 29,
+          "selectable": false,
+          "style": "Hidden"
+        },
+        "height": 8.210550308227539,
+        "image": "2020-field.png",
+        "left": 96,
+        "right": 1040,
+        "targets": {
+          "arrowColor": [
+            0.27848100662231445,
+            1.0,
+            0.0,
+            255.0
+          ],
+          "arrowSize": 58,
+          "arrowWeight": 6.0,
+          "color": [
+            0.05063295364379883,
+            1.0,
+            0.0,
+            255.0
+          ],
+          "style": "Hidden",
+          "weight": 1.0
+        },
+        "top": 25,
+        "width": 15.982950210571289,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "retained": {
+      ".schema": {
+        "open": true
+      }
+    },
+    "transitory": {
+      "CameraPublisher": {
+        "Photon_13-raw": {
+          "open": true
+        },
+        "open": true,
+        "photonvision-processed": {
+          "open": true
+        },
+        "photonvision-raw": {
+          "open": true
+        },
+        "photonvision1_Port_1182_Output_MJPEG_Server": {
+          "open": true
+        }
+      },
+      "SmartDashboard": {
+        "VisionSystemSim-main": {
+          "Sim Field": {
+            "open": true
+          },
+          "open": true
+        },
+        "VisionSystemSim-main/Sim Field": {
+          "open": true
+        },
+        "open": true
+      },
+      "photonvision": {
+        "Photon12": {
+          "open": true
+        },
+        "lime_13": {
+          "double[]##v_/photonvision/lime_13/targetPose": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true,
+        "photonvision": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Clients": {
+      "open": true
+    },
+    "Server": {
+      "Subscribers": {
+        "open": true
+      },
+      "open": true
+    },
+    "photonvision@1": {
+      "Publishers": {
+        "open": true
+      },
+      "open": true
+    },
+    "visible": true
+  }
+}
